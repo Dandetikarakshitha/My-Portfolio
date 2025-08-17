@@ -81,11 +81,7 @@ a:hover {
   font-weight: 500;
 }
 
-.menu-toggle {
-  display: none;
-  font-size: 2rem;
-  cursor: pointer;
-}
+
 
 /* ---------- Hero Section ---------- */
 .hero {
@@ -322,3 +318,4 @@ footer {
     height: 200px;
   }
 }
+
