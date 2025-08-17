@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">My Portfolio<span class="dot"></span></div>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="menu-toggle" id="menuToggle">&#9776;</div>
+  </nav>
+
+  
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1 class="fade-in">Hello, I'm <span class="highlight">Dandetikar Akshitha Bai</span></h1>
+      <p class="fade-in-delay">A creative <span id="typewriter"></span></p>
+      <a href="#projects" class="btn explore-btn">Explore My Work</a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <div class="about-text">
+        <p>
+          Hey there 👋 I’m <b>Dandetikar Akshitha</b>, a 3rd-year Computer Science Engineering student 
+          who believes that <b>code is not just logic, it’s art</b>.  
+          My journey in tech started with simple HTML pages, but soon turned into a passion for 
+          <b>crafting digital experiences</b> that connect with people.
+        </p>
+    
+        <p>
+           I am a passionate web developer focused on building cleanand responsive websites.
+          I enjoy transforming <b>complex ideas into simple, elegant solutions</b> — whether that means 
+          building responsive websites, experimenting with interactive designs, or solving tough 
+          problems with clean code. 🌟  
+        </p>
+
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- Social Links -->
+  <section class="links">
+    <a id="lin" href="https://www.linkedin.com/in/dandetikar-akshitha-bai-3b498837a/" target="_blank" rel="noopener">My LinkedIn Profile</a><br><br>
+    <a id="git" href="https://github.com/Dandetikarakshitha" target="_blank" rel="noopener">My GitHub Profile</a><br><br>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>My Skills</h2>
+    <div class="skill-list">
+      <span>HTML</span><br>
+      <span>CSS</span><br>
+      <span>JavaScript</span><br>
+      <span>Python</span><br>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+      <div class="project-card slide-up">
+        <h3>Portfolio Website</h3>
+        <p>A responsive personal portfolio website.</p>
+      </div>
+      <div class="project-card slide-up">
+        <h3>Weather Dashboard</h3>
+        <p>Real-time weather forecasting app using APIs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Dandetikar Akshitha | Made with ❤️</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
